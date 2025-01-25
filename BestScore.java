@@ -19,7 +19,8 @@ class BestScore {
 	            if (first == null || score > first) {
 	                second = first;  
 	                first = score;   
-	            } else if (second == null || (score > second && score < first)) {
+	            } 
+		    else if (second == null || (score > second && score < first)) {
 	                second = score;  
 	            }
 	        }
